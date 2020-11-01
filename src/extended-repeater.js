@@ -1,4 +1,4 @@
-onst CustomError = require("../extensions/custom-error");
+const CustomError = require("../extensions/custom-error");
 
 module.exports = function repeater(str, options) {
   let sep = '';
